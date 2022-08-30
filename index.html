@@ -11,13 +11,40 @@
     <div class="section">
       <div class="container">
         <h1>People entered:</h1>
-        <h2 id="count-el">0</h2>
+        <h2 id="count-el"></h2>
         <div class="calc">
           <button id="increment-btn">+</button>
           <button id="save">save</button>
           <button id="decrement-btn">-</button>
         </div>
+        <p id="save-el" style="color: aliceblue">Previous entries:</p>
       </div>
+
+      <!-- nike-card example -->
+      <div class="nike-card">
+        <img
+          src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/w_378,c_limit/b40a0a1d-3ea1-4bc2-a71d-b3501c36892d/react-pegasus-trail-4-womens-trail-running-shoes-rmTKPW.png"
+          alt="shoe"
+        />
+        <p>Nike shoe</p>
+        <div id="btn">Purchase - $149</div>
+        <p id="error"></p>
+      </div>
+    </div>
+
+    <!-- calculator -->
+    <div id="calc">
+      <div class="spans">
+        <span id="num1-el"></span> <span id="num2-el"></span>
+      </div>
+
+      <br />
+      <button onclick="add()">Add</button>
+      <button onclick="subtract()">Subtract</button>
+      <button onclick="divide()">Divide</button>
+      <button onclick="multiply()">Multiply</button>
+      <br />
+      <div id="sum-el">Sum:</div>
     </div>
 
     <script src="script.js"></script>

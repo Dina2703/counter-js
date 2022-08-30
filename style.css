@@ -4,7 +4,7 @@ body {
 
 .section {
   width: 700px;
-  height: 1000px;
+
   margin-left: 100px;
   margin-top: 100px;
 }
@@ -14,7 +14,7 @@ body {
   background-position: center;
   background-size: cover;
   height: 300px;
-  width: 70%;
+  width: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,7 +39,7 @@ h1 {
 button {
   width: 100px;
   margin: 0 10px;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: large;
   background-color: antiquewhite;
   border: 0;
@@ -67,4 +67,69 @@ button:active {
 
 button:hover {
   opacity: 0.9;
+}
+
+.nike-card {
+  width: 200px;
+  height: 350px;
+  margin-top: 40px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+  border-radius: 4px;
+}
+
+.nike-card img {
+  width: 100%;
+}
+
+.nike-card p,
+.nike-card div {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nike-card div {
+  border: 1px solid black;
+  padding: 5px 8px;
+  border-radius: 25px;
+  text-align: center;
+  background-color: lightblue;
+  transition: 5ms;
+}
+
+.nike-card div:hover {
+  background-color: rgb(34, 168, 213);
+}
+
+.nike-card #error {
+  color: red;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+#calc {
+  width: 500px;
+  height: 200px;
+  margin-top: 40px;
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+
+#sum-el {
+  width: 500px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#calc .spans {
+  width: 500px;
+  text-align: center;
+}
+
+#calc span {
+  border-bottom: 3px solid black;
+  margin: auto;
 }
